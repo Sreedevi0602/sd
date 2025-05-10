@@ -1,17 +1,17 @@
 import logo from '../assets/sreedeviLogo.png'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { SiGmail } from 'react-icons/si';
+
 
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between py-6">
         <div className="flex flex-shrink-0 items-center">
             <a href="/" aria-label="Home">
-            <img src={logo} alt="Logo" className='mx-2' width={200} height={132} />
+            <img src={logo} alt="Logo" className='mx-2' width={250} height={198} />
             </a>
         </div>
 
-        <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        <div className="m-8 flex items-center justify-center gap-7 text-4xl">
             <a href="https://www.linkedin.com/in/v-s-sreedevi-66558535b"
                 target='_blank'
                 rel='noopener noreferrer'
@@ -26,12 +26,6 @@ const Navbar = () => {
                     <FaGithub />
             </a>
 
-            <a href="mailto:vssreedevi2001@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Gmail">
-                    <SiGmail />
-            </a>
         </div>
         
 
