@@ -8,6 +8,6 @@ applications:
             - npm install  # Install dependencies
             - npm run build  # Build the project
       artifacts:
-        baseDirectory: sd/dist  # Path to the build output (React's default is 'build' inside the root)
+        baseDirectory: dist  # Path to the build output (React's default is 'build' inside the root)
         files:
           - '**/*'  # Include all files inside the build directory
