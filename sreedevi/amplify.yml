@@ -1,0 +1,9 @@
+version: 1
+applications:
+  - appRoot: sreedevi  # Point to the 'sreedevi' folder
+    frontend:
+      phases:
+        build:
+          commands:
+            - npm install
+            - npm run build
