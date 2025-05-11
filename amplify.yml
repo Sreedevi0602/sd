@@ -1,15 +1,14 @@
 version: 1
-applications:
-  - appRoot: sd  # Point to the 'sd' folder, where everything is now located
-    frontend:
-      phases:
-        build:
-          commands:
-            - npm install  # Install dependencies
-            - npm run build  # Build the project
-            - echo "Listing output directory contents:"
-            - ls -la
-      artifacts:
-        baseDirectory: dist  # Path to the build output (React's default is 'build' inside the root)
-        files:
-          - '**/*'  # Include all files inside the build directory
+frontend:
+  phases:
+    build:
+      commands:
+        - npm i
+        - npm run build
+  artifacts:
+    baseDirectory: dist
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
