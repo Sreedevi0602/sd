@@ -24,7 +24,7 @@ const Contact = () => {
                 className="my-4 whitespace-pre">
                 {CONTACT.phoneNo}
             </motion.p>
-            <a href="#" className="no-underline">
+            <a href={`mailto:${CONTACT.email}`} className="no-underline">
                 {CONTACT.email}
             </a>
         </div>
