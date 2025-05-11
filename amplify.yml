@@ -1,9 +1,13 @@
 version: 1
 applications:
-  - appRoot: sd
+  - appRoot: sd  # Point to the 'sd' folder, where everything is now located
     frontend:
       phases:
         build:
           commands:
-            - npm install
-            - npm run build
+            - npm install  # Install dependencies
+            - npm run build  # Build the project
+      artifacts:
+        baseDirectory: sd/dist  # Path to the build output (React's default is 'build' inside the root)
+        files:
+          - '**/*'  # Include all files inside the build directory
