@@ -7,6 +7,8 @@ applications:
           commands:
             - npm install  # Install dependencies
             - npm run build  # Build the project
+            - echo "Listing output directory contents:"
+            - ls -la
       artifacts:
         baseDirectory: dist  # Path to the build output (React's default is 'build' inside the root)
         files:
