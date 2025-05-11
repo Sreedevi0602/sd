@@ -1,6 +1,6 @@
 version: 1
 applications:
-  - appRoot: sd/sreedevi  # Point to the 'sreedevi' folder inside 'sd'
+  - appRoot: sd
     frontend:
       phases:
         build:
