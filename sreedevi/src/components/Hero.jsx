@@ -55,7 +55,7 @@ const Hero = () => {
                 </motion.p>
                 <motion.a 
                 variants={childVariants}
-                href="/V S Sreedevi - Full Stack Developer.pdf"
+                href="/V S Sreedevi - Full-Stack Developer.pdf"
                 target='_blank'
                 rel='noopener noreferrer'
                 download className='bg-white rounded-full p-4 text-sm text-stone-800 mb-10'>

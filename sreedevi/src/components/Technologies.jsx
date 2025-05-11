@@ -150,6 +150,8 @@ const Technologies = () => {
 
         </motion.div>
 
+        
+
       </div>
     </div>
   )
