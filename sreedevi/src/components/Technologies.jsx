@@ -1,6 +1,11 @@
 import { RiReactjsLine } from "react-icons/ri"
-import { SiDjango, SiPython, SiBootstrap, SiShopify, SiMysql, SiSqlite, SiJavascript, SiAxios, SiRedux, SiHtml5, SiCss3, SiGit, SiGithub } from 'react-icons/si';
+import { SiDjango, SiPython, SiBootstrap, SiShopify, SiMysql, SiSqlite, SiJavascript, SiAxios, SiRedux, SiHtml5, SiCss3, SiGit, SiGithub, SiNpm, SiAwsamplify } from 'react-icons/si';
+import { FaAws } from 'react-icons/fa';
 import { motion } from "framer-motion";
+import s3Icon from '../assets/icons/aws-s3.svg';
+import ec2Icon from '../assets/icons/aws-ec2.svg';
+import npmIcon from '../assets/icons/npm.svg';
+import amplifyIcon from '../assets/icons/aws-amplify.svg'
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -149,6 +154,48 @@ const Technologies = () => {
         </motion.div>
 
         </motion.div>
+
+        <motion.div 
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: -100 }}
+          transition={{ duration: 1.5 }}
+          className="flex gap-4 flex-wrap mt-4">
+
+        <motion.div 
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(2.5)}
+          className="p-4">
+          <img src={npmIcon} alt="Npm" className="text-7xl" width="70" height="70" />
+        </motion.div>
+
+        
+
+        <motion.div 
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(5)}
+          className="p-4">
+          <img src={s3Icon} alt="AWS S3" className="text-7xl" width="85" height="85" />
+        </motion.div>
+
+        <motion.div 
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(2)}
+          className="p-4">
+          <img src={ec2Icon} alt="AWS EC2" className="text-7xl" width="85" height="85" />
+        </motion.div>
+
+        <motion.div 
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(6)}
+          className="p-4">
+          <img src={amplifyIcon} alt="AWS Amplify" className="text-7xl" width="85" height="85" />
+        </motion.div>
+
+</motion.div>
 
         
 
