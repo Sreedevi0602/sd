@@ -37,14 +37,14 @@ export const PROJECTS = [
     title: "Online Book Store (Full-Stack App)",
     image: project1,
     description: 
-    `Developed a full-stack online bookstore using Django for the backend and React for the frontend, connected via REST API for seamless data exchange (e.g., fetching books, user authentication, and order processing).
-    Implemented key features including book search, category/author filtering, and cart-based purchasing to improve user experience.
-    Utilized React Router DOM for client-side routing in a Single Page Application and Axios to make API calls between frontend and backend.
-    Designed a secure user authentication system and built customer-facing pages such as registration, login, cart, and checkout, integrated with the backend via REST API.
-    Created an admin dashboard to manage books, categories, orders, and users with full CRUD capabilities, and enabled real-time order management.`,
+    `Built a full-stack online bookstore using Django, leveraging Django templates for the frontend and SQLite as the database.
+    Implemented key features including book browsing, search functionality, and filtering by category and author.
+    Developed cart and order management system enabling users to purchase books seamlessly.
+    Integrated secure user authentication and session management for both customers and admin users.
+    Designed and developed an admin dashboard to manage books, categories, orders, and user accounts with full CRUD functionality.`,
     
   
-    technologies: ["React", "Axios", "React Router DOM", "MUI", "Django", "REST API", "SQLite" ],
+    technologies: ["Django", "Python", "SQLite", "HTML", "CSS", "JavaScript", "Bootstrap" ],
   },
   {
     title: "Business Consulting Firm Profile Site",
