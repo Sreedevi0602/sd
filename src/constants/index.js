@@ -47,6 +47,19 @@ export const PROJECTS = [
     technologies: ["Django", "Python", "SQLite", "HTML", "CSS", "JavaScript", "Bootstrap" ],
   },
   {
+    title: "Fitness Class Booking API",
+    image: project3,
+    description: 
+    `Built a RESTful API for a fictional fitness studio to view and book classes.
+    Implemented endpoints for listing classes, booking a class, and retrieving bookings by email.
+    Used timezone-aware datetime handling to dynamically adjust class times based on user timezone.
+    Ensured robust error handling, including overbooking, invalid inputs, missing fields, etc.
+    Developed clean, modular code with input validation, logging, basic unit tests, and sample seed data.`,
+    
+  
+    technologies: ["Django", "Python", "SQLite", "HTML", "CSS", "JavaScript", "Bootstrap" ],
+  },
+  {
     title: "Business Consulting Firm Profile Site",
     image: project2,
     description:
@@ -59,7 +72,7 @@ export const PROJECTS = [
   },
   {
     title: "B2B Shopify Clothing Store",
-    image: project3,
+    image: project4,
     description:
       ` Customized a Shopify store for a clothing brand, focusing on B2B sales with retailer-based pricing logic, using Shopify CLI for efficient theme development and deployment.
         Implemented set-based pricing in the admin dashboard, with price variation based on quantity (3 to 10 units).
@@ -80,7 +93,7 @@ export const PROJECTS = [
   },
   {
     title: "Contact Diary (Personal Contact Manager)",
-    image: project2,
+    image: project3,
     description:
       ` Developed a Django-based personal contact management system featuring secure user registration, login, and session-based authentication.
         Implemented full CRUD operations for contacts, including the ability to add, edit, delete, and search user-specific contact entries.
@@ -91,7 +104,7 @@ export const PROJECTS = [
   },
   {
     title: "Project Management Dashboard",
-    image: project4,
+    image: project2,
     description:
       ` Developed a fully responsive project management dashboard using React and Material-UI, ensuring a modern interface and consistent user experience across devices.
         Integrated external APIs using Axios to enable secure user registration and login functionality.
@@ -104,7 +117,7 @@ export const PROJECTS = [
 
 
 export const CONTACT = {
-  address: "Kerala, India",
+  address: "Bengaluru, India",
   phoneNo: "+91 75920 36585          +91 81488 04155",
-  email: "vssreedevi2001@gmail.com",
+  email: "vssreedevi06@gmail.com",
 };
