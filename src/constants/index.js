@@ -57,7 +57,7 @@ export const PROJECTS = [
     Developed clean, modular code with input validation, logging, basic unit tests, and sample seed data.`,
     
   
-    technologies: ["Django", "Python", "SQLite", "HTML", "CSS", "JavaScript", "Bootstrap" ],
+    technologies: ["Python", "Django (REST Framework)", "SQLite" ],
   },
   {
     title: "Business Consulting Firm Profile Site",
